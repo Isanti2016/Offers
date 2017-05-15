@@ -14,7 +14,7 @@ void DeleteNode(ListNode** pListHead, ListNode* pToBeDeleted);//删除结点
 void CreateListTail(ListNode ** L, const int a[], int a_length);//尾插法创建链表
 void PrintNode(ListNode* L);//打印整个链表
 bool GetNode(const ListNode* L, int i, ListNode** Node);//获取结点， ListNode** Node必须定义指向节点的指针，才能返回结点
-int main()
+int main_3()
 {
 	int a[8] = {1,5,6,8,9,45,2,63};
 

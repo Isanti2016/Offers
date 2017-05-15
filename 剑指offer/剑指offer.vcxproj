@@ -147,6 +147,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="两个数相加.cpp" />
+    <ClCompile Include="使用模版把数组拆分成前后两部分.cpp" />
     <ClCompile Include="在O(1)时间删除链表节点.cpp" />
     <ClCompile Include="打印1到最大的n位数.cpp" />
   </ItemGroup>
