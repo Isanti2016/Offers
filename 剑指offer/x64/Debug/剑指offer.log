@@ -1,3 +1,4 @@
 ﻿  树的子结构.cpp
+cl : 命令行 warning D9028: 最小重新生成失败，正在转换为标准生成
   剑指offer.vcxproj -> D:\C++\Jobs\剑指offer\x64\Debug\剑指offer.exe
   剑指offer.vcxproj -> D:\C++\Jobs\剑指offer\x64\Debug\剑指offer.pdb (Full PDB)
