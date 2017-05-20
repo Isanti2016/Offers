@@ -1,4 +1,3 @@
-﻿  使用模版把数组拆分成前后两部分.cpp
-d:\c++\jobs\剑指offer\剑指offer\使用模版把数组拆分成前后两部分.cpp(39): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+﻿  树的子结构.cpp
   剑指offer.vcxproj -> D:\C++\Jobs\剑指offer\x64\Debug\剑指offer.exe
   剑指offer.vcxproj -> D:\C++\Jobs\剑指offer\x64\Debug\剑指offer.pdb (Full PDB)

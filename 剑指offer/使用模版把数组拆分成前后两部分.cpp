@@ -8,7 +8,7 @@ void reOrderArray_1(vector<int> &array, bool(*fun)(int)); //利用函数指针，构成模
 void swap(vector<int> &array, int low, int high);
 bool isEvent(int num);//函数模版
 
-int main()
+int main_4()
 {
 	//vector<int> array = { 1,8,6,9,2,75,6,3 };
 	vector<int> array = { 1,2,3,4,5,6,7 };
