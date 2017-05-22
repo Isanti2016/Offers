@@ -18,7 +18,7 @@ char *str = NULL;//二叉树数据用char* 存储
 
 
 
-int main()
+int main_6()
 {
 	//创建树
 	str ="889##24##7##7##";//正常包含子树的情况
