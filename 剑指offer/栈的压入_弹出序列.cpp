@@ -6,7 +6,7 @@ using namespace std;
 
 bool IsPopOrder(vector<int> pushV, vector<int> popV);//ÅÐ¶ÏÑ¹Èëµ¯³öÕ»
 
-int main()
+int main_8()
 {
 	vector<int> vec = { 1,2,3,4,5 };
 	//vector<int> vec1 = {5,4,3,2,1};

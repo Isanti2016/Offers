@@ -153,6 +153,7 @@
     <ClCompile Include="打印1到最大的n位数.cpp" />
     <ClCompile Include="栈的压入_弹出序列.cpp" />
     <ClCompile Include="树的子结构.cpp" />
+    <ClCompile Include="链表的复制.cpp" />
     <ClCompile Include="顺时针打印矩阵.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
