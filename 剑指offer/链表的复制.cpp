@@ -15,7 +15,7 @@ void CloneList(RandomListNode* pHead);//复制结点
 RandomListNode* ReconnectListNode(RandomListNode* pHead);//把A和A'分离，形成原链表，和复制后的链表
 RandomListNode* ReconnectListNode_1(RandomListNode* pHead);//把A和A'分离，形成原链表，和复制后的链表,书上的方法
 
-int main()//简单链表的复制
+int main_9()//简单链表的复制
 {
 	int a[] = {1,2,3,4,5,6};
 	RandomListNode* root=new RandomListNode;
