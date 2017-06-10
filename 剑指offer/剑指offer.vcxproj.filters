@@ -15,34 +15,37 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="打印1到最大的n位数.cpp">
+    <ClCompile Include="08栈的压入_弹出序列.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="两个数相加.cpp">
+    <ClCompile Include="03在O%281%29时间删除链表节点.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="在O(1)时间删除链表节点.cpp">
+    <ClCompile Include="07顺时针打印矩阵.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="使用模版把数组拆分成前后两部分.cpp">
+    <ClCompile Include="06树的子结构.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="temp.cpp">
+    <ClCompile Include="04使用模版把数组拆分成前后两部分.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="树的子结构.cpp">
+    <ClCompile Include="02两个数相加.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="顺时针打印矩阵.cpp">
+    <ClCompile Include="09链表的复制.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="栈的压入_弹出序列.cpp">
+    <ClCompile Include="01打印1到最大的n位数.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="链表的复制.cpp">
+    <ClCompile Include="05temp.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="二叉搜索树与双向链表.cpp">
+    <ClCompile Include="10二叉搜索树与双向链表.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="11字符排序.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
