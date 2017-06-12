@@ -7,12 +7,13 @@ using namespace std;
 vector<string> Permutation(string str);//形式上的字符全排
 void Permutation(string str, set<string>&result, int begin, int end);//用于字符全排
 void swap(string& str, int num1, int num2);//交换字符
-int main()
+int main_11()
 {
 	//char* str = "abcdefg";
 	//char str[10] = "abc";
 	//string str = "abc";
-	string str = "bba";
+	//string str = "bba";
+	string str = "abcd";
 	cout << "permutation :" << endl;
 
 	vector<string> result;//结果
@@ -27,7 +28,7 @@ int main()
 		}
 		cout << endl;//每一组全排换行
 	}
-	cout << endl;
+	cout << "tatol number:"<<result.size()<<endl;
 
 	return 0;
 }
@@ -55,11 +56,11 @@ void Permutation(string str,set<string>&result,int begin,int end)//利用set解决元
 	else
 	{
 
-		for (int i = begin; i < end;i++)
+		for (int i = begin; i < end;i++)//i用于子字符(因为递归所以是从尾向头)串求排序
 		{
 
-			swap(str, i, begin);
-			Permutation(str, result, begin + 1, end);
+			swap(str, i, begin);//用于交换
+			Permutation(str, result, begin + 1, end);//begin+1与上面的if配合用于跳出循环
 			swap(str, i, begin);//恢复为原来的字符串
 		}
 	}

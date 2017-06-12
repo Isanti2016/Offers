@@ -1,29 +1,58 @@
-#include <iostream>
-#include<Cstdio>
-
-#include<windows.h>
-
+#include<iostream>  
+#include<vector>  
 using namespace std;
 
-
-
-int main_t()
+//位操作算法  
+// void main()
+//// {
+//	char* data = "abcd";
+//	int length = strlen(data);
+//	int last = (1 << length) - 1;
+//	cout << last << endl;
+//
+//	int i;
+//	for (i = 1; i <= last; i++)
+//	{
+//		int currentIndex = length - 1;
+//		while (currentIndex >= 0)
+//		{
+//			if (i&(1 << currentIndex))
+//			{
+//				cout << data[length - currentIndex - 1];
+//			}
+//			--currentIndex;
+//		}
+//		cout << endl;
+//	}
+//}
+void algorithm(char* data, int num, vector<char>& result)
 {
-	char ch;
-	char str[80];
-	char str1[80];
-	char str2[80];
-// 	scanf("%c", &ch);
-// 	printf("%c",ch);
+	if (!num)
+	{
+		vector<char>::iterator it = result.begin();
+		for (it; it != result.end(); ++it)
+		{
+			cout << *it;
+		}
+		cout << endl;
+		return;
+	}
+	if (*data == '\0')
+		return;
+	result.push_back(*data);
+	algorithm(data + 1, num - 1, result);
+	result.pop_back();
+	algorithm(data + 1, num, result);
+}
 
-	gets_s(str);
-	puts(str);
-// 	scanf("%s", str);/*此处输入:I love you! */
-// 	printf("%s", str);
-// 	Sleep(1000);/*这里等待5秒,告诉你程序运行到什么地方*/
-// 	scanf("%s", str1);/*这两句无需你再输入,是对键盘盘缓冲区再扫描   */
-// 	scanf("%s", str2);/*这两句无需你再输入,是对键盘盘缓冲区再扫描    */
-// 	printf("\n%s", str1);
-// 	printf("\n%s", str2);
-	return 0;
+void main_5()
+{
+	char* data = "abcd";
+	int length = strlen(data);
+	vector<char> result;
+	int i;
+	for (i = 1; i <= length; i++)
+	{
+		algorithm(data, i, result);
+	}
 }

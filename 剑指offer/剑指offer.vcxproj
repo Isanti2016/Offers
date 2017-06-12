@@ -157,6 +157,7 @@
     <ClCompile Include="09链表的复制.cpp" />
     <ClCompile Include="07顺时针打印矩阵.cpp" />
     <ClCompile Include="11字符排序.cpp" />
+    <ClCompile Include="12最小的k个数.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
