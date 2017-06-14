@@ -51,5 +51,8 @@
     <ClCompile Include="12最小的k个数.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="数组排成最小的数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
