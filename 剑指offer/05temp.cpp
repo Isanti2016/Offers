@@ -1,58 +1,39 @@
-#include<iostream>  
-#include<vector>  
+#include <iostream> 
+#include <strstream> 
 using namespace std;
 
-//位操作算法  
-// void main()
-//// {
-//	char* data = "abcd";
-//	int length = strlen(data);
-//	int last = (1 << length) - 1;
-//	cout << last << endl;
-//
-//	int i;
-//	for (i = 1; i <= last; i++)
-//	{
-//		int currentIndex = length - 1;
-//		while (currentIndex >= 0)
-//		{
-//			if (i&(1 << currentIndex))
-//			{
-//				cout << data[length - currentIndex - 1];
-//			}
-//			--currentIndex;
-//		}
-//		cout << endl;
-//	}
-//}
-void algorithm(char* data, int num, vector<char>& result)
+int GetUglyNumber_Solution_1(int index);
+bool IsUgly_1(int number);
+
+int main_5()
 {
-	if (!num)
-	{
-		vector<char>::iterator it = result.begin();
-		for (it; it != result.end(); ++it)
-		{
-			cout << *it;
-		}
-		cout << endl;
-		return;
-	}
-	if (*data == '\0')
-		return;
-	result.push_back(*data);
-	algorithm(data + 1, num - 1, result);
-	result.pop_back();
-	algorithm(data + 1, num, result);
+	cout << GetUglyNumber_Solution_1(7) << endl;
+	system("pause");
+	return 0;
 }
 
-void main_5()
-{
-	char* data = "abcd";
-	int length = strlen(data);
-	vector<char> result;
-	int i;
-	for (i = 1; i <= length; i++)
+int GetUglyNumber_Solution_1(int index) {
+	int count = 0;
+	int num = 0;
+
+	if (index <= 0)
+		return num;
+
+	while (count < index)
 	{
-		algorithm(data, i, result);
+		++num;
+		if (IsUgly_1(num))
+			count++;
 	}
+	return num;
+}
+bool IsUgly_1(int number)
+{
+	while (number % 2 == 0)//只要有因子的2则一直把因子2去掉
+		number /= 2;
+	while (number % 3 == 0)//只要有因子的3则一直把因子3去掉
+		number /= 3;
+	while (number % 5 == 0)//只要有因子的5则一直把因子5去掉
+		number /= 5;
+	return (number == 1) ? true : false;//1是丑数
 }

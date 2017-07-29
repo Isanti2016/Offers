@@ -158,7 +158,11 @@
     <ClCompile Include="07顺时针打印矩阵.cpp" />
     <ClCompile Include="11字符排序.cpp" />
     <ClCompile Include="12最小的k个数.cpp" />
-    <ClCompile Include="数组排成最小的数.cpp" />
+    <ClCompile Include="13数组排成最小的数.cpp" />
+    <ClCompile Include="14丑数.cpp" />
+    <ClCompile Include="15数组中和为S的两个数.cpp" />
+    <ClCompile Include="16反转句子单词.cpp" />
+    <ClCompile Include="17n个骰子的点数.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
