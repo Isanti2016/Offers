@@ -1,9 +1,8 @@
-﻿生成启动时间为 2017/7/29 12:25:21。
+﻿生成启动时间为 2017/7/30 11:26:54。
      1>项目“D:\learning\C++\剑指offer\剑指offer\剑指offer.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
-         E:\Application\VS2015\VC\bin\x86_amd64\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt "16反转句子单词.cpp"
-         16反转句子单词.cpp
-     1>d:\learning\c++\剑指offer\剑指offer\16反转句子单词.cpp(22): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+         E:\Application\VS2015\VC\bin\x86_amd64\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt "18_3求1+2+...+n.cpp"
+         18_3求1+2+...+n.cpp
        Link:
          E:\Application\VS2015\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\learning\C++\剑指offer\x64\Debug\剑指offer.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\learning\C++\剑指offer\x64\Debug\剑指offer.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\learning\C++\剑指offer\x64\Debug\剑指offer.lib" /MACHINE:X64 x64\Debug\05temp.obj
          "x64\Debug\02两个数相加.obj"
@@ -21,9 +20,14 @@
          "x64\Debug\14丑数.obj"
          "x64\Debug\15数组中和为S的两个数.obj"
          "x64\Debug\16反转句子单词.obj"
+         "x64\Debug\17n个骰子的点数.obj"
+         "x64\Debug\18_2求1+2+...+n.obj"
+         "x64\Debug\18_1求1+2+...+n.obj"
+         "x64\Debug\18_3求1+2+...+n.obj"
+         "x64\Debug\18_4求1+2+...+n.obj"
          剑指offer.vcxproj -> D:\learning\C++\剑指offer\x64\Debug\剑指offer.exe
      1>已完成生成项目“D:\learning\C++\剑指offer\剑指offer\剑指offer.vcxproj”(Build 个目标)的操作。
 
 已成功生成。
 
-已用时间 00:00:00.97
+已用时间 00:00:00.91

@@ -66,5 +66,17 @@
     <ClCompile Include="17n个骰子的点数.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="18_2求1+2+...+n.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="18_3求1+2+...+n.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="18_4求1+2+...+n.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="18_1求1+2+...+n.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

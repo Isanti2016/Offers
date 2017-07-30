@@ -163,6 +163,10 @@
     <ClCompile Include="15数组中和为S的两个数.cpp" />
     <ClCompile Include="16反转句子单词.cpp" />
     <ClCompile Include="17n个骰子的点数.cpp" />
+    <ClCompile Include="18_2求1+2+...+n.cpp" />
+    <ClCompile Include="18_1求1+2+...+n.cpp" />
+    <ClCompile Include="18_3求1+2+...+n.cpp" />
+    <ClCompile Include="18_4求1+2+...+n.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
