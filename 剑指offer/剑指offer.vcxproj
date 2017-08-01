@@ -167,6 +167,9 @@
     <ClCompile Include="18_1求1+2+...+n.cpp" />
     <ClCompile Include="18_3求1+2+...+n.cpp" />
     <ClCompile Include="18_4求1+2+...+n.cpp" />
+    <ClCompile Include="19_1不能被继承的类.cpp" />
+    <ClCompile Include="19_2不能被继承的类.cpp" />
+    <ClCompile Include="20表示数值的字符串.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

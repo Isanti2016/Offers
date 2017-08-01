@@ -15,7 +15,7 @@ unsigned int Sum_Solution3(unsigned int n)
 }
 
 
-int main()
+int main_18_3()
 {
 	int n;
 	cin >> n;
